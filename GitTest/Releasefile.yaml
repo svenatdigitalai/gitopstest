@@ -1,6 +1,6 @@
 # Exported from:        http://DESKTOP-N337PT7:5516/
 # Release version:      10.2.4
-# Date created:         Mon Oct 11 10:21:54 CEST 2021
+# Date created:         Mon Oct 11 10:22:23 CEST 2021
 
 ---
 apiVersion: xl-release/v1
@@ -20,6 +20,11 @@ spec:
   - phase: Eins
     tasks:
     - name: Task 1
+      type: xlrelease.Task
+    color: '#0079BC'
+  - phase: Zwei
+    tasks:
+    - name: Task 2
       type: xlrelease.Task
     color: '#0079BC'
   riskProfile: Default risk profile
