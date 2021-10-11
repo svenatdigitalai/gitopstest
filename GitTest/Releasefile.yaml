@@ -18,7 +18,7 @@ spec:
   scheduledStartDate: 2021-10-11T09:00:00+02:00
   dueDate: 2021-10-11T10:00:00+02:00
   phases:
-  - phase: Eins
+  - phase: EinsEditImGithub
     tasks:
     - name: Task 1
       type: xlrelease.Task
