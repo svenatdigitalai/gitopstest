@@ -1,6 +1,6 @@
 # Exported from:        http://DESKTOP-N337PT7:5516/
 # Release version:      22.0.0-rc.2
-# Date created:         Fri Feb 04 08:16:40 CET 2022
+# Date created:         Fri Feb 04 08:25:57 CET 2022
 
 ---
 apiVersion: xl-release/v1
@@ -8,7 +8,7 @@ kind: Templates
 metadata:
   home: sven
 spec:
-- template: svenTestGit
+- template: sven
   scheduledStartDate: 2022-02-02T09:00:00+01:00
   phases:
   - phase: New Phase
@@ -20,6 +20,8 @@ spec:
         def myReleaseVar
         myReleaseVar = ['a','b','c']
         releaseVariables['available_builds'] = myReleaseVar
+    - name: test
+      type: xlrelease.Task
   variables:
   - type: xlrelease.ListStringVariable
     key: available_builds
