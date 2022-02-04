@@ -11,7 +11,7 @@ spec:
 - template: sven
   scheduledStartDate: 2022-02-02T09:00:00+01:00
   phases:
-  - phase: New Phase
+  - phase: New Phase From Github
     tasks:
     - name: de
       type: xlrelease.GroovyScriptTask
