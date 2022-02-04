@@ -11,7 +11,7 @@ spec:
 - template: testtemplate
   scheduledStartDate: 2022-02-04T09:00:00+01:00
   phases:
-  - phase: Friday
+  - phase: Thursday
     tasks:
     - name: test task
       type: xlrelease.Task
